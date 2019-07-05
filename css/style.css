@@ -1,0 +1,118 @@
+.heroes h3 {
+	display: flex;
+	align-items: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.heroes .heroes-item {
+	color: white;
+	justify-content: flex-start;
+	padding: .5em 0;
+	cursor: default;
+}
+
+.heroes .heroes-item:hover {
+	color: #CC2026;
+} 
+
+.heroes .heroes-item img {
+	border: 1px solid #CC2026;
+}
+
+.preview .slick-dots {
+	position: absolute;
+	top: 92.5%;
+}
+
+.preview .slick-prev {
+	position: absolute;
+	left: 1.5%;
+	z-index: 40;
+}
+
+.preview .slick-next {
+	position: absolute;
+	right: 2.5%;
+	z-index: 40;
+}
+
+.gallery .gallery-items {
+	margin: 0;
+	margin-bottom: -.5em;
+	padding: 0;
+}
+
+.gallery .gallery-items .gallery-item {
+	margin: 0;
+}
+
+.gallery .gallery-items .gallery-item img {
+	width: 100%;
+	margin: 0;
+}
+
+.top-team .top-team-items .top-team-item {
+	width: 100% !important;
+}
+
+.top-team .top-team-items .top-team-item .team-rating {
+	display: block;
+	background-color: #CC2026;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: .25em;
+	font-size: 5em;
+}
+
+.top-team .top-team-items .top-team-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+.top-gamers .top-gamers-items .top-gamers-item img {
+	width: 10em;
+}
+
+.top-gamers .top-gamers-items .top-gamers-item p {
+	font-size: .75em;
+}
+
+.bc {
+	background-attachment: scroll;
+	background-image: url(../img/bcgrnd.jpg);
+}
+
+.bc a.btn {
+	margin-top: 2.5em;
+}
+
+.news {
+	padding-bottom: 0;
+}
+
+.news .news-items .news-item {
+	display: flex;
+	background-color: #222;
+	align-items: center;
+	margin: .5em 0;
+}
+
+.news .news-items .news-item:last-child {
+	margin-bottom: 0;
+}
+
+.news .news-items .news-item img {
+	width: 50%;
+}
+
+.news .news-items .news-item .text {
+	text-align: left;
+	padding-left: 1em;
+}
+
+.news .news-items .news-item hr {
+	margin: .25em 0;
+	width: 5%;
+}
